@@ -32,7 +32,8 @@
 
 #projects-header span {
     color: black;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
+    background-color: white;
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
@@ -52,6 +53,10 @@
 
 .card-img-top {
     max-height: 200px;
+}
+
+.fa-link {
+    margin-right: 5px;
 }
 
 @media only screen and (max-width: 576px) {
