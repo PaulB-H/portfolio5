@@ -8,7 +8,7 @@
 /* Had to use !important here because there was a bootstrap class for the navbar overriding this */
 
 #my-nav {
-    justify-content: flex-start;
+    justify-content: space-between;
     border-bottom: 1px solid darkgray;
 }
 
@@ -18,6 +18,11 @@
 
 .navbar-toggler {
     color: black;
+}
+
+.nav-anchor {
+    padding-top: 65px;
+    margin-top: -65px;
 }
 
 #jumbo {
@@ -58,6 +63,7 @@
         margin-top: 25px;
     }
     #my-nav .navbar-nav {
+        /* justify-content: flex-start; */
         flex-direction: row;
     }
     #my-nav .navbar-nav .nav-item {
