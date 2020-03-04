@@ -59,6 +59,11 @@
     margin-right: 5px;
 }
 
+.text-muted {
+    position: absolute;
+    bottom: 10px;
+}
+
 @media only screen and (max-width: 576px) {
     #project-card {
         margin: auto;
