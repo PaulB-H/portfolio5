@@ -82,7 +82,7 @@
 }
 
 #social-links h4 {
-    padding: 0 10px 0 0;
+    padding: 0 25px;
 }
 
 #social-links h4 i {
@@ -94,8 +94,11 @@
         margin: auto;
         margin-bottom: 25px;
     }
-    .jumbotron {
+    #jumbo {
         margin-top: 25px;
+    }
+    #jumbo h1 {
+        font-size: 40px;
     }
     #my-nav .navbar-nav {
         /* justify-content: flex-start; */
@@ -109,5 +112,14 @@
         float: none;
         margin-top: 10px;
         padding: 0 0 10px 0;
+    }
+    #social-links {
+        display: flex;
+        justify-content: center;
+        padding: 0 10px 0 0;
+        text-align: center;
+    }
+    #social-links h4 {
+        padding: 0 10px 0 0;
     }
 }
