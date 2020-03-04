@@ -1,10 +1,36 @@
+/* 0080FF - Nice blue */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.jumbotron {
-    margin-top: 25px;
+/* Had to use !important here because there was a bootstrap class for the navbar overriding this */
+
+#my-nav {
+    justify-content: flex-start;
+    border-bottom: 1px solid darkgray;
+}
+
+#my-nav .navbar-brand {
+    margin-right: 5px;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+#jumbo {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#projects-header span {
+    color: black;
+    background-color: #F8F9FA;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 
 #projects {
@@ -28,5 +54,15 @@
         margin: auto;
         margin-bottom: 25px;
     }
-    .card-img-top {}
+    .jumbotron {
+        margin-top: 25px;
+    }
+    #my-nav .navbar-nav {
+        flex-direction: row;
+    }
+    #my-nav .navbar-nav .nav-item {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    /* .card-img-top {} */
 }

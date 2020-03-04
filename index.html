@@ -17,23 +17,23 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav id="my-nav" class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">PaulBH</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">About Me</a>
-                <a class="nav-item nav-link" href="#">Projects</a>
-            </div>
+        </button> -->
+        <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About Me</a>
+            <a class="nav-item nav-link" href="#">Projects</a>
         </div>
+        <!-- </div> -->
     </nav>
 
 
-    <div class="jumbotron jumbotron-fluid">
+    <div id="jumbo" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Paul Bernard-Hall</h1>
             <p class="lead">A new web-developer with strong leadership skills and management experience looking for the
@@ -42,9 +42,9 @@
         </div>
     </div>
 
-    <!-- <div style="display: flex; align-items: left;">
-        <h4 style="margin: auto;">Projects</h4>
-    </div> -->
+    <div id="projects-header" style="display: flex; justify-content: center; ">
+        <h1><span class="badge badge-secondary">Projects</span></h1>
+    </div>
 
     <div id="projects" class="card-deck" style="margin-left: 0; margin-right: 0;">
         <div id="project-card" class="card">
@@ -62,7 +62,7 @@
         <div id="project-card" class="card">
             <img src="img/pokeball.png" class="card-img-top" alt="..." style="padding: 0 40px 0 40px;">
             <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
+                <h5 class="card-title">PokeSim</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis
                     voluptatibus dolorem eligendi ipsam
                     ducimus odit neque quibusdam quis accusantium?</p>
@@ -72,7 +72,7 @@
         <div id="project-card" class="card">
             <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
+                <h5 class="card-title">Weather Dash</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis
                     voluptatibus dolorem eligendi ipsam
                     ducimus odit neque quibusdam quis accusantium?</p>
@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <div id="projects" class="card-deck" style="margin-left: 0; margin-right: 0;">
+    <div id="projects" class="card-deck">
         <div id="project-card" class="card">
             <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
             <div class="card-body">
@@ -112,6 +112,11 @@
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
+    </div>
+
+    <div>
+
+        <img src="..." class="rounded float-left" alt="...">
     </div>
 
 
