@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#projects {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+}
+
+#project-card {
+    max-width: 300px;
+    margin-bottom: 25px;
+    /* max-height: 400px; */
+}
+
+.card-img-top {
+    max-height: 200px;
+}
+
+@media only screen and (max-width: 576px) {
+    #project-card {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}
