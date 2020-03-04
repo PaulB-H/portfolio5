@@ -5,8 +5,6 @@
     padding: 0;
 }
 
-/* Had to use !important here because there was a bootstrap class for the navbar overriding this */
-
 #my-nav {
     justify-content: space-between;
     border-bottom: 1px solid darkgray;
