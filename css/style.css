@@ -7,7 +7,7 @@
 
 #my-nav {
     justify-content: space-between;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid #76B6FB;
 }
 
 #my-nav .navbar-brand {
@@ -90,6 +90,7 @@
     float: right;
     margin-top: -80px;
     padding: 25px;
+    max-height: 200px;
 }
 
 #social-links {
@@ -125,8 +126,8 @@
         padding-left: .5rem;
     }
     #about-me img {
-        float: none;
-        margin-top: 10px;
+        /* float: none; */
+        margin-top: -10px;
         padding: 0 0 10px 0;
     }
     #social-links {
